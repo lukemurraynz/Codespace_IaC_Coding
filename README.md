@@ -2,6 +2,8 @@
 
 This repository contains the code for IaC (Infrastructure as Code) coding in Codespace.
 
+Related Blog Article: [Infrastructure as Code GitHub Codespace Template](https://luke.geek.nz/azure/iac-github-codespace/).
+
 ## Development Environment
 
 This project uses a Docker container as a development environment, which includes tools like Azure CLI, PowerShell, Azure Bicep, Azure Developer CLI (azd), Terraform, TFLint, and Terragrunt.
