@@ -1,0 +1,6 @@
+# This line specifies the base image for the Docker container.
+# "FROM" is a Docker instruction used to set the base image from which the container is built.
+# "mcr.microsoft.com/devcontainers/universal:latest" is the image being used.
+# It is a universal image provided by Microsoft, hosted on the Microsoft Container Registry (MCR),
+# designed for development containers. The "latest" tag specifies the most recent version of this image.
+FROM mcr.microsoft.com/devcontainers/universal:latest

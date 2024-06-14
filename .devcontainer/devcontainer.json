@@ -1,0 +1,75 @@
+{
+  // "name" specifies the name of the development container, which helps in identifying it in a list of containers.
+  "name": "Ubuntu",
+
+  // "build" section is used to define how the development container is built. It can reference a Dockerfile or a Docker Compose file.
+  "build": {
+    "dockerfile": "dockerfile" // Specifies the Dockerfile to use for building the container.
+  },
+
+  // "features" section allows adding and configuring predefined features or tools in the development container.
+  "features": {
+    // Adds and configures the Azure CLI with Bicep and Python installation options.
+    "ghcr.io/devcontainers/features/azure-cli:latest": {
+      "installBicep": true, // Enables Bicep installation.
+      "installUsingPython": true, // Installs using Python.
+      "version": "latest" // Specifies the version of the Azure CLI to install.
+    },
+    // Adds PowerShell to the container.
+    "ghcr.io/devcontainers/features/powershell:latest": {
+      "version": "latest" // Specifies the version of PowerShell to install.
+    },
+    // Adds Azure Bicep support.
+    "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:latest": {},
+    // Adds Azure Developer CLI (azd) support.
+    "ghcr.io/azure/azure-dev/azd:latest": {},
+    // Adds and configures Terraform with specific version, TFLint, and Terragrunt.
+    "ghcr.io/devcontainers/features/terraform:1": {
+      "version": "latest", // Specifies the version of Terraform to install.
+      "tflint": "latest", // Specifies the version of TFLint to install.
+      "terragrunt": "latest" // Specifies the version of Terragrunt to install.
+    }
+  },
+
+  // "customizations" section allows configuring specific aspects of the development environment, such as VS Code settings and extensions.
+  "customizations": {
+    "vscode": {
+      // Defines VS Code settings to be applied within the dev container.
+      "settings": {
+        "editor.formatOnSaveMode": "file", // Configures format on save to be applied to the entire file.
+        "bicep.experimental.deployPane": "true" // Enables the experimental deploy pane for Bicep.
+      },
+      // Lists VS Code extensions to be installed in the dev container environment.
+      "extensions": [
+        "ms-azuretools.vscode-azurecontainerapps",
+        "ms-azuretools.vscode-azureresourcegroups",
+        "ms-azuretools.vscode-bicep",
+        "editorconfig.editorconfig",
+        "BenjaminBenais.copilot-theme",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-vscode.azure-account",
+        "hashicorp.terraform",
+        "golang.Go"
+      ]
+    }
+  }
+
+  // Additional sections can be uncommented and configured as needed for port forwarding, post-creation commands, and other customizations.
+}
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "uname -a",
+
+  // Configure tool-specific properties.
+  // "customizations": {},
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
