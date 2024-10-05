@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iO+FkCnkBFo=",
+  "dgSpecHash": "fVngWqQm3dC+mwwbKJ+a2CiSbm7f9hfj7CeYlgJS3yWChg94YD2RzBpdfJheky/ilB0jzxbFJOLK60qqgq5itA==",
   "success": true,
-  "projectFilePath": "/workspaces/Codespace_IaC_Coding/AZ2003App/AZ2003App.csproj",
+  "projectFilePath": "/github/workspace/AZ2003App/AZ2003App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

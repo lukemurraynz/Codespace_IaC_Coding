@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "/github/home/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Codespace_IaC_Coding/AZ2003App/AZ2003App.csproj",
+      "projectUniqueName": "/github/workspace/AZ2003App/AZ2003App.csproj",
       "projectName": "AZ2003App",
-      "projectPath": "/workspaces/Codespace_IaC_Coding/AZ2003App/AZ2003App.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/Codespace_IaC_Coding/AZ2003App/obj/",
+      "projectPath": "/github/workspace/AZ2003App/AZ2003App.csproj",
+      "packagesPath": "/github/home/.nuget/packages/",
+      "outputPath": "/github/workspace/AZ2003App/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "/github/home/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
