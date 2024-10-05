@@ -49,3 +49,7 @@ avm.tflint_module.merged.hcl
 *.md.tmp
 # MacOS
 .DS_Store
+
+# C#
+ [Bb]in/
+ [Oo]bj/

@@ -50,7 +50,10 @@
         "GitHub.copilot-chat",
         "ms-vscode.azure-account",
         "hashicorp.terraform",
-        "golang.Go"
+        "golang.Go",
+        "ms-azuretools.vscode-docker",
+        "formulahendry.docker-explorer",
+        "ms-dotnettools.csdevkit"
       ]
     }
   }
