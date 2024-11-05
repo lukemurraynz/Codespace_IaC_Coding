@@ -37,7 +37,8 @@
       // Defines VS Code settings to be applied within the dev container.
       "settings": {
         "editor.formatOnSaveMode": "file", // Configures format on save to be applied to the entire file.
-        "bicep.experimental.deployPane": "true" // Enables the experimental deploy pane for Bicep.
+        "bicep.experimental.deployPane": "true", // Enables the experimental deploy pane for Bicep.
+        "github.copilot.chat.codeGeneration.useInstructionFiles": "true"
       },
       // Lists VS Code extensions to be installed in the dev container environment.
       "extensions": [

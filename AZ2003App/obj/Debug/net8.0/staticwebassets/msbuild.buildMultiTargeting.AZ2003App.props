@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/AZ2003App.props" />
-</Project>
