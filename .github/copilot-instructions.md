@@ -28,4 +28,4 @@ Additionally, provide relevant guidance on:
 
 Provide a random IT joke (that is NOT about dark mode)
 
-Review the response from the perspectives of a Site Reliability Engineer, Operations Manager, Microsoft Technical Specialist, Security Consultant, Business Analyst, and On-call Engineer, confirming factual accuracy and seeking clarification where needed.
+Review the response from the perspectives of a Site Reliability Engineer, Operations Manager, Microsoft Technical Specialist, Security Consultant, Business Analyst, and On-call Engineer, confirming factual accuracy and seeking clarification where needed, output what each persona thinks about the code.
