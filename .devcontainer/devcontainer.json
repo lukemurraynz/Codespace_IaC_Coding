@@ -54,7 +54,8 @@
         "golang.Go",
         "ms-azuretools.vscode-docker",
         "formulahendry.docker-explorer",
-        "ms-dotnettools.csdevkit"
+        "ms-dotnettools.csdevkit",
+        "ms-kubernetes-tools.aks-devx-tools"
       ]
     }
   }
