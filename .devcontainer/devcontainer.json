@@ -23,6 +23,8 @@
     "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:latest": {},
     // Adds Azure Developer CLI (azd) support.
     "ghcr.io/azure/azure-dev/azd:latest": {},
+        // Adds and configures Terraform with specific version, TFLint, and Terragrunt.
+  "ghcr.io/prulloac/devcontainer-features/pre-commit:1.0.3": {},
     // Adds and configures Terraform with specific version, TFLint, and Terragrunt.
     "ghcr.io/devcontainers/features/terraform:1": {
       "version": "latest", // Specifies the version of Terraform to install.
@@ -30,6 +32,7 @@
       "terragrunt": "latest" // Specifies the version of Terragrunt to install.
     }
   },
+  "postCreateCommand": "pre-commit install",
 
   // "customizations" section allows configuring specific aspects of the development environment, such as VS Code settings and extensions.
   "customizations": {
