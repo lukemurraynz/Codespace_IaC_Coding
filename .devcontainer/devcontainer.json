@@ -31,6 +31,14 @@
       "tflint": "latest", // Specifies the version of TFLint to install.
       "terragrunt": "latest", // Specifies the version of Terragrunt to install.
       "installTerraformDocs": true
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:latest": {
+      "moby": true,
+      "azureDnsAutoDetection": true,
+      "installDockerBuildx": true,
+      "installDockerComposeSwitch": true,
+      "version": "latest",
+      "dockerDashComposeVersion": "latest"
     }
   },
   "postCreateCommand": "pre-commit install",
